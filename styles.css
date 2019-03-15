@@ -1,0 +1,62 @@
+body{
+    font-family: 'Mali', cursive;
+    color:red;
+    text-align: center;
+    padding:10px;
+}
+header{
+    background-image:
+     linear-gradient(to right bottom,
+     rgba(60,60,60,0.5),
+      rgba(20,20, 20, 0.3)),
+      url("../db cover.jpg");
+    background-size: cover;
+    background-position: top- left;
+
+}
+
+.banner-heading{
+    font-size:3rem;
+    text-shadow:2px 2px 5px black;
+
+
+}
+
+ .banner-heading2{
+     font-size:2rem;
+     text-shadow: 2px 2px 3px black;
+     
+
+ }
+.teams{
+
+     background-image:url("../water\ pic\ db.jpg");
+      background-size:cover;
+    }
+ .fun{
+     background: 
+     linear-gradient( rgba(252, 13, 13, 0.986),rgba(10, 74, 192, 0.945));
+ }
+.fitness{
+    background:linear-gradient( rgba(25, 3, 223, 0.767),rgba(118, 238, 5, 0.849));
+}
+ 
+ .friendship{
+     background:linear-gradient(rgba(118,238,5,0.8),rgba(248, 5, 5, 0.938));
+ }
+ 
+.card{
+    max-width: 400px;
+    height:auto;
+    box-shadow: 4px 8px 12px rgb(59, 45, 45);
+}
+.hidecard{
+    display:none;
+}
+
+.Hidden{
+    filter: saturate(6) brightness(2) ;
+}
+.listOfFriends{
+    list-style: none;
+}
